@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ordering Piza</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="main1">
+            <div class="maincontent1">
+                <h1>Choose the Piza and make Order</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form id="new-contact">
+                                <div class="form-group">
+                                    <label for="new-first-name">Names</label>
+                                    <input type="text" class="form-control" id="first-name" required>
+                                  </div>
+                 
+                 <div id="new-addresses">
+                        <div class="new-address">
+                            <div class="form-group">
+                               <label for = "new-name">Pizza name</label>
+                                   <select name="name" id ="type" class="form-control new-name"  required>
+                                
+                                    <option >Margarta Pizza</option>
+                                    <option >Hawaian</option>
+                                    <option >Vegetarian</option>
+                                    <option >Pepperoni</option>
+                                    <option >Italian</option>
+                                    <option >Supreme</option>
+                                    <option >Pizza Combo</option>
+                                    <option >Meat lovers</option>
+                                    <option >Mr chips</option>
+                                 </select>
+                                </div>
+                            </div>
+                      
+               
+                  <div class="new-address">
+                     <div class="form-group">
+                            <label for ="new-name1">Pizza size</label>
+                                <select name="Location" id ="size" class="form-control new-size" required>
+                                        <option >large</option>
+                                        <option >medium</option>
+                                        <option >small</option>
+                                    </select>           
+                     </div>
+            </div>
+            
+                    <div class="new-address">
+                        <div class="form-group">
+                            <label for ="new-name2">Pizza Crust</label>
+                                <select name="Location" id ="crust" class="form-control new-crust " required>
+                                    <option >Crispy</option>
+                                    <option >Stuffed</option>
+                                    <option >Gluten-free</option>
+                                </select>           
+                     </div>           
+              </div>
+        
+          
+                <div class="new-address">
+                    <div class="form-group">
+                        <label for ="new-name3">Pizza Popping</label>
+                            <select name="Location" id ="popping" class="form-control new-popping" required>
+                                <option >Pepperoni</option>
+                                <option >Mushrooms</option>
+                                <option >Onions</option>
+                                <option >Sausage</option>
+                                <option >Extra cheese</option>
+                                <option >Black olives</option>
+                                <option >Green peppe</option>
+                             </select>           
+                     </div>
+                    
+                     <br>
+                     
+                     <button type="submit" class="btn btn-primary" onclick="getInput()">Order</button>
+                 </div>
+           
+        </form>
+        </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

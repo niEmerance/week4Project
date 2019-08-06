@@ -1,0 +1,50 @@
+.main{
+    background: linear-gradient(
+        rgba(0,0,0, 0.8),
+        rgba(0,0,0, 0.8)),
+        url("../images/piza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.main .maincontent{
+    padding-top: 250px;
+    padding-left: 200px;
+    color: white;
+}
+.main .maincontent h1{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+.main .maincontent a{
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    background-color: brown;
+    border-radius: 50px;
+}
+.main1{
+    background: linear-gradient(
+        rgba(0,0,0, 0.8),
+        rgba(0,0,0, 0.8)),
+        url("../images/piza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.main1 .maincontent1{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.main1 .maincontent1 h1{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 70px;
+}
