@@ -3,7 +3,7 @@
 
 This is a project which help client to buy pizza online
 
-
+<img src="images/pizaform.png">
 
 ## Author
 
